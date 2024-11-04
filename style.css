@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+.resume {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #007BFF; /* Blue border */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #007BFF;
+    cursor: pointer; /* Change cursor to pointer for clickable sections */
+}
+
+.section {
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:khaki; /* Light blue background for sections */
+}
+
+.section-content {
+    display: none; /* Initially hide section content */
+    padding: 10px;
+    border-top: 1px solid #007BFF; /* Border between header and content */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
